@@ -1,0 +1,316 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101323;
+    color: white;
+}
+
+nav {
+    background-color: #191d35;
+    color: white;
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #773bff;
+}
+
+nav h2 {
+    color: #a78bfa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+.home {
+    background-color: #191d35;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-text {
+    width: 60%;
+}
+
+.home h3 {
+    color: #a78bfa;
+}
+
+.home h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.home h2 {
+    color: #38bdf8;
+}
+
+.home p {
+    line-height: 1.8;
+    color: #c5c9dc;
+}
+
+.btn {
+    background-color: #773bff;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #38bdf8;
+    color: #101323;
+}
+
+.image {
+    width: 190px;
+    height: 190px;
+    background-color: #773bff;
+    border: 5px solid #a78bfa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    color: white;
+    font-size: 45px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+section h1 {
+    text-align: center;
+    color: #a78bfa;
+    margin-bottom: 30px;
+}
+
+.about {
+    background-color: #101323;
+}
+
+.about p {
+    line-height: 1.9;
+    text-align: center;
+    color: #c5c9dc;
+}
+
+.education {
+    background-color: #191d35;
+}
+
+.edu-box {
+    background-color: #242943;
+    padding: 18px;
+    margin: 18px;
+    border-left: 4px solid #773bff;
+    border-radius: 5px;
+}
+
+.edu-box h3 {
+    color: #38bdf8;
+}
+
+.edu-box p {
+    color: #c5c9dc;
+}
+
+
+.skills {
+    background-color: #101323;
+}
+
+.skill-box {
+    width: 80%;
+    margin: auto;
+}
+
+.skill-box p {
+    color: #c5c9dc;
+}
+
+.bar {
+    background-color: #292e49;
+    height: 12px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+.html {
+    width: 70%;
+    height: 12px;
+    background-color: #a78bfa;
+    border-radius: 10px;
+}
+
+.css {
+    width: 50%;
+    height: 12px;
+    background-color: #38bdf8;
+    border-radius: 10px;
+}
+
+.java {
+    width: 45%;
+    height: 12px;
+    background-color: #a78bfa;
+    border-radius: 10px;
+}
+
+.python {
+    width: 40%;
+    height: 12px;
+    background-color: #38bdf8;
+    border-radius: 10px;
+}
+
+.projects {
+    background-color: #191d35;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #242943;
+    width: 40%;
+    padding: 22px;
+    margin: 10px;
+    border: 1px solid #393f60;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #38bdf8;
+}
+
+.card p {
+    color: #c5c9dc;
+    line-height: 1.7;
+}
+
+.card:hover {
+    border-color: #a78bfa;
+}
+
+
+.hobbies {
+    background-color: #101323;
+}
+
+.hobbies ul {
+    line-height: 2.5;
+    color: #c5c9dc;
+}
+
+/* Contact */
+
+.contact {
+    background-color: #191d35;
+    text-align: center;
+}
+
+.contact p {
+    color: #c5c9dc;
+}
+
+.contact form {
+    width: 60%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #242943;
+    color: white;
+    border: 1px solid #393f60;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #a5a9bd;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #773bff;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #38bdf8;
+    color: #101323;
+}
+
+
+footer {
+    background-color: #0b0e1b;
+    color: #c5c9dc;
+    text-align: center;
+    padding: 18px;
+}
+
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .home-text {
+        width: 100%;
+    }
+
+    .project-box {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+
+}
